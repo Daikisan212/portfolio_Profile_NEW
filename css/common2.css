@@ -50,6 +50,36 @@ height: 400px;
     padding:25px;
     color: white;
 }
+.form
+{
+  width: 1000px;
+  margin:auto;
+  margin-top: 20px;
+  text-align: center;
+  padding:15px;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+.formname
+{
+  font-size: 26px;
+  width: 1000px;
+}
+.formmail
+{
+  padding: 15px;
+  font-size: 26px;
+  width: 1000px;;
+}
+.formmess
+{
+  padding: 15px;
+  font-size: 26px;
+}
+input
+{
+  margin-left: 10px;
+}
 #loading {
     width: 100vw;
     height: 100vh;

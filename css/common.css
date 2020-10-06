@@ -64,20 +64,35 @@ height: 400px;
 }
 .conname{
   font-size:34px;
-  margin: 20px;
-  width: 400px;
+  padding: 10px;
+  margin: 10px 0px 15px 0px;
+  width: 1000px;
+  border-bottom: 2px solid black;
 }
 .pic{
-  width:25vw;
+  width: 470px;
+  height: auto;
   float: left;
+  margin-top: 10px;
+  border-radius: 15px;
 }
-.pic:last-child{
+.pic1{
   border-radius: 15px;
 }
 .det{
   float: left;
   margin: 15px;
   line-height:2;
+  color: #232323;
+  background: #fff8e8;
+  border-left: solid 10px #ffc06e;
+}
+.det:first-child
+{
+  color: #232323;
+  background: #fff8e8;
+  border-right: solid 10px #ffc06e;
+  border-left: none;
 }
 .det p{
   margin: 10px;
